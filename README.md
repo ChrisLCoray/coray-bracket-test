@@ -2,14 +2,10 @@
 
 #### Submitted by Chris Coray
 
----
-
 ## Requirements to Run:
 
 - NodeJS installed locally/globally &mdash; tested using 14.16.1</li>
 - Included JS file
-
----
 
 ## Challenge:
 
@@ -27,14 +23,12 @@ Return `true` if they do, return `false` if they do not.
 #### Expected Output:
 
 For the following tests, we expect the accompanying result:
-| Syntax | Description |
-| ----------- | ----------- |
 | Test | Result |
 | {} | True |
 | }{ | False |
 | {{} | False |
 | "" | True |
-| ----------- | ----------- |
+| Custom Tests: |
 | {"a": "1" | False |
 | {"a": "1"} | True |
 | },{} | False |
@@ -42,4 +36,4 @@ For the following tests, we expect the accompanying result:
 
 ##### Screenshot of test with results:
 
-![Expected Output Screenshot](test_image.jpg)
+![Expected Output Screenshot](https://github.com/ChrisLCoray/job-nimbus-test/blob/main/test_image.png)
