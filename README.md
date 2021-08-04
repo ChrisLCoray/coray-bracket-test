@@ -24,17 +24,16 @@ Return `true` if they do, return `false` if they do not.
 
 For the following tests, we expect the accompanying result:
 
-| Syntax     | Description |
-| ---------- | ----------- |
-| Test       | Result      |
-| {}         | True        |
-| }{         | False       |
-| {{}        | False       |
-| ""         | True        |
-| {"a": "1"  | False       |
-| {"a": "1"} | True        |
-| },{}       | False       |
-| {},{}      | True        |
+| Test       | Result |
+| ---------- | ------ |
+| {}         | True   |
+| }{         | False  |
+| {{}        | False  |
+| ""         | True   |
+| {"a": "1"  | False  |
+| {"a": "1"} | True   |
+| },{}       | False  |
+| {},{}      | True   |
 
 ##### Screenshot of test with results:
 
