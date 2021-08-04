@@ -23,12 +23,12 @@ Return `true` if they do, return `false` if they do not.
 #### Expected Output:
 
 For the following tests, we expect the accompanying result:
+
 | Test | Result |
 | {} | True |
 | }{ | False |
 | {{} | False |
 | "" | True |
-| **Custom Tests:** | |
 | {"a": "1" | False |
 | {"a": "1"} | True |
 | },{} | False |
