@@ -1,5 +1,5 @@
 /**
- * JobNimbus Technical test
+ * Bracket test
  * Chris Coray
  *
  * Problem 1:
@@ -18,8 +18,8 @@
  *
  **/
 
-(function () {
-    const testStringBrackets = (testString) => {
+const myTest = {
+    testBrackets(testString) {
         var brokenBracket = 0;
         var openBracket = -1;
 
@@ -51,20 +51,20 @@
             return true;
         }
     }
+}
 
-    var testStrings = [
-        '{}', // True
-        '}{', // False
-        '{{}', // False
-        '""', // True
-        '{"a": "1"', // False
-        '{"a": "1"}', // True
-        '},{}', // False - no matching open bracket
-        '{},{}' // True - double matching brackets
-    ];
+const testStrings = [
+    '{}', // True
+    '}{', // False
+    '{{}', // False
+    '""', // True
+    '{"a": "1"', // False
+    '{"a": "1"}', // True
+    '},{}', // False - no matching open bracket
+    '{},{}' // True - double matching brackets
+];
 
-    for (var i = 0; i < testStrings.length; i += 1) {
-        var s = testStrings[i];
-        console.log('String ' + s + ' test result = ' + testStringBrackets(s));
-    }
-}());
+for (let i = 0; i < testStrings.length; i += 1) {
+    const s = testStrings[i];
+    console.log(`String ${s} test result = ${myTest.testBrackets(s)}`);
+}
