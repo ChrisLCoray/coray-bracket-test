@@ -36,7 +36,3 @@ For the following tests, we expect the accompanying result:
 | {"a": "1"} | True            |
 | },{}       | False           |
 | {},{}      | True            |
-
-##### Screenshot of test with results:
-
-![Expected Output Screenshot](https://github.com/ChrisLCoray/job-nimbus-test/blob/main/test_image.png)
