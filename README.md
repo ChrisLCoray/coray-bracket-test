@@ -1,6 +1,6 @@
-# JobNimbus Technical test
+# Bracket test
 
-#### Submitted by Chris Coray
+#### Chris Coray
 
 ## Requirements to Run:
 
@@ -8,6 +8,8 @@
 - Included JS file
 
 ## Challenge:
+
+This was a quick coding challenge presented by a potential employer:
 
 Write a method that takes a string argument and returns whether or not characters in the string have matching brackets, meaning for every `{` there is a corresponding `}` bracket.
 
