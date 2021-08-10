@@ -19,7 +19,7 @@ Return `true` if they do, return `false` if they do not.
 
 1. Checkout repository or download JS file separately.
 2. Open Command Line prompt and navigate to where file is located.
-3. Run script using `node jobnimbus_chriscoray.js`.
+3. Run script using `node bracket_test.js`.
 4. The script will auto-execute and print test results to the terminal/console.
 
 #### Expected Output:
@@ -36,3 +36,7 @@ For the following tests, we expect the accompanying result:
 | {"a": "1"} | True            |
 | },{}       | False           |
 | {},{}      | True            |
+
+#### Screenshot of Results:
+
+![Expected Output Screenshot](https://github.com/ChrisLCoray/coray-bracket-test/blob/main/expected-results.png)
